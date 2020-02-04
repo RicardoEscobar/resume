@@ -1,40 +1,45 @@
 <!doctype html>
 <html lang="es">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 
     <title>Ricardo Escobar</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <!-- Barra de navegacion -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">Ricardo</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
-      
+
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Portafolio</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Blog</a>
-              </li>
-          </ul>
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Portafolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                </li>
+            </ul>
         </div>
-      </nav><!-- Barra de navegacion -->
-    
+    </nav><!-- Barra de navegacion -->
+
     <!-- Jumbotron -->
-    <div class="jumbotron">
+    <div class="jumbotron text-center">
         <h1>Soy Ricardo</h1>
         <h2>Soy full stack web developer.</h2>
     </div><!-- Jumbotron -->
@@ -43,68 +48,72 @@
     <div class="container">
 
         <!-- saludo -->
-        <div>
-            <img src="https://via.placeholder.com/150" />
-            <h2>Hola.</h2>
+        <div class="saludo text-center">
+            <img class="img-circulo ml-auto mr-auto" src="https://via.placeholder.com/150" />
+            <h2 class="subtitulo">Hola.</h2>
             <p>Soy un desarrollador web con sede en Veracruz, México. Trabajo como full stack web developer.</p>
         </div><!-- saludo -->
         <hr>
 
         <!-- lo que yo puedo hacer -->
-        <div>
-            <h1>Lo que yo puedo hacer.</h1>
+        <div class="puedo-hacer">
+            <h1 class="titulo text-center">Lo que yo puedo hacer.</h1 class="text-center">
             <div class="row">
-                <div class="col-md-6">
-                    <img src="https://via.placeholder.com/150" />
+                <div class="col-md-6 disenia">
+                    <img class="img-circulo ml-auto" src="https://via.placeholder.com/150" />
                 </div>
-                <div class="col-md-6">
-                    <h2>Diseña lo que quieres.</h2>
-                    <p>Me gusta que sea simple. Mis objetivos son centrarme en la tipografía, el contenido y transmitir el mensaje que desea enviar.</p>
+                <div class="col-md-6 disenia">
+                    <h2 class="subtitulo">Diseña lo que quieres.</h2>
+                    <p>Me gusta que sea simple. Mis objetivos son centrarme en la tipografía, el contenido y transmitir
+                        el mensaje que desea enviar.</p>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-6">
-                    <h2>Desarrolla lo que necesitas.</h2>
-                    <p>Soy desarrollador, por lo que sé cómo crear su sitio web para que se ejecute en dispositivos moviles utilizando las últimas tecnologías disponibles.</p>
+                <div class="col-md-6 desarrolla">
+                    <h2 class="subtitulo">Desarrolla lo que necesitas.</h2 class="subtitulo">
+                    <p>Soy desarrollador, por lo que sé cómo crear su sitio web para que se ejecute en dispositivos
+                        moviles utilizando las últimas tecnologías disponibles.</p>
                 </div>
-                <div class="col-md-6">
-                    <img src="https://via.placeholder.com/150" />
+                <div class="col-md-6 desarrolla text-center">
+                    <img class="img-circulo" src="https://via.placeholder.com/150" />
                 </div>
             </div>
         </div><!-- lo que yo puedo hacer -->
         <hr>
 
         <!-- Yo puedo ayudar -->
-        <div>
-            <h1>Yo puedo ayudar.</h1>
-            <h2>Actualmente estoy disponible para trabajo independiente.</h2>
-            <p>Si tiene un proyecto que desea comenzar, cree que necesita mi ayuda con algo o simplemente desea decir hola, luego póngase en contacto.</p>
-            <button type="button" class="btn btn-primary">MENSAJEAME</button>
+        <div class="puedo-ayudar text-center">
+            <h1 class="titulo">Yo puedo ayudar.</h1>
+            <h2 class="subtitulo">Actualmente estoy disponible para trabajo independiente.</h2>
+            <p>Si tiene un proyecto que desea comenzar, cree que necesita mi ayuda con algo o simplemente desea decir
+                hola, luego póngase en contacto.</p>
+            <button type="button" class="btn btn-primary btn-lg mensajeame">MENSAJEAME</button>
         </div><!-- Yo puedo ayudar -->
 
     </div><!-- container -->
 
-        <footer class="footer mt-auto py-3 bg-light">
-            <div class="container-fluid">
-                <ul class="nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">LinkedIn</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">GitHub</a>
-                    </li class="nav-item">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contratame</a class="nav-link">
-                    </li>
-                </ul>
-                <span class="text-muted">© 2020 Jorge Ricardo Escobar Carrasco. All rights reserved.</span>
+    <footer class="footer mt-auto py-3 bg-light text-center">
+        <div class="container-fluid">
+            <div class="social-media">
+                <a href="#">LinkedIn</a>
+                <a href="#">GitHub</a>
+                <a href="#">Contratame</a>
             </div>
-        </footer>
+            <span class="text-muted">© 2020 Jorge Ricardo Escobar Carrasco. All rights reserved.</span>
+        </div>
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  </body>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+</body>
+
 </html>
