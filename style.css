@@ -1,3 +1,33 @@
+/* Fuentes */
+
+@import url('https://fonts.googleapis.com/css?family=Caveat:700|IBM+Plex+Sans:400,700|IBM+Plex+Serif:400,700&display=swap');
+
+body {
+    font-family: 'IBM Plex Serif', serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.jumbotron h1 {
+    font-family: 'Caveat', cursive;
+    font-size: 5rem;
+}
+
+.jumbotron h2 {
+    font-size: 1.5rem;
+}
+
+button {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
 .social-media a {
     margin: 20px;
 }
