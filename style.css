@@ -11,3 +11,98 @@
 .jumbotron h2 {
     padding-bottom: 5rem;
 }
+
+/* Espaciado saludo */
+
+.saludo {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    ;
+    margin: 0 auto;
+    max-width: 460px;
+}
+
+/* Espaciado lo que yo puedo hacer */
+
+.puedo-hacer {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    ;
+    margin: 0 auto;
+}
+
+.disenia {
+    padding: 0 2rem;
+    margin-bottom: 5.5rem;
+}
+
+.desarrolla {
+    padding: 0 2rem;
+}
+
+/* Espaciado yo puedo ayudar */
+
+.puedo-ayudar {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    margin: 0 auto;
+    max-width: 460px;
+}
+
+/* estilos personalizados */
+
+.img-circulo {
+    margin-bottom: 2rem;
+    border-radius: 100%;
+    display: block;
+}
+
+.saludo .img-circulo {
+    margin-bottom: 2rem;
+}
+
+.titulo {
+    margin-bottom: 3rem;
+    padding-bottom: 3rem;
+}
+
+.subtitulo {
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+}
+
+.puedo-ayudar h1 {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.mensajeame {
+    margin-top: 5rem;
+}
+
+@media (max-width: 1028px) {
+
+    .img-circulo {
+        margin: 0 auto;
+    }
+
+    .titulo {
+        margin-bottom: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .subtitulo {
+        margin-bottom: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .disenia {
+        padding: 0 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .desarrolla {
+        padding: 0 2rem;
+    }
+
+}
