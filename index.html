@@ -16,7 +16,7 @@
 
 <body>
     <!-- Barra de navegacion -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-custom">
         <a class="navbar-brand" href="#">Ricardo</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,38 +39,39 @@
     </nav><!-- Barra de navegacion -->
 
     <!-- Jumbotron -->
-    <div class="jumbotron text-center">
+    <div class="jumbotron text-center bg-custom">
         <h1>Yo soy Ricardo.</h1>
-        <h2>Soy full stack web developer.</h2>
+        <h2>full stack web developer.</h2>
     </div><!-- Jumbotron -->
 
-    <!-- container -->
-    <div class="container">
-
-        <!-- saludo -->
-        <div class="saludo text-center">
+    <!-- saludo -->
+    <div class="container-fluid bg-custom">
+        <div class=" saludo text-center ">
             <img class="img-circulo ml-auto mr-auto" src="https://via.placeholder.com/150" />
-            <h2 class="subtitulo">Hola.</h2>
+            <h1 class="subtitulo">Hola.</h3>
             <p>Soy un desarrollador web con sede en Veracruz, México. Trabajo como full stack web developer.</p>
         </div><!-- saludo -->
-        <hr>
+    </div>
 
-        <!-- lo que yo puedo hacer -->
-        <div class="puedo-hacer">
-            <h1 class="titulo text-center">Lo que yo puedo hacer.</h1 class="text-center">
+    <!-- lo que yo puedo hacer -->
+    <div class="container-fluid puedo-hacer bg-custom">
+
+        <div class="container">
+
+            <h1 class="titulo text-center">Lo que yo puedo hacer.</h1>
             <div class="row">
                 <div class="col-md-6 disenia">
                     <img class="img-circulo ml-auto" src="https://via.placeholder.com/150" />
                 </div>
                 <div class="col-md-6 disenia">
-                    <h2 class="subtitulo">Diseña lo que quieres.</h2>
+                    <h4 class="subtitulo">Diseña lo que quieres.</h4>
                     <p>Me gusta que sea simple. Mis objetivos son centrarme en la tipografía, el contenido y transmitir
                         el mensaje que desea enviar.</p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-6 desarrolla">
-                    <h2 class="subtitulo">Desarrolla lo que necesitas.</h2 class="subtitulo">
+                    <h4 class="subtitulo">Desarrolla lo que necesitas.</h4>
                     <p>Soy desarrollador, por lo que sé cómo crear su sitio web para que se ejecute en dispositivos
                         moviles utilizando las últimas tecnologías disponibles.</p>
                 </div>
@@ -78,19 +79,18 @@
                     <img class="img-circulo" src="https://via.placeholder.com/150" />
                 </div>
             </div>
-        </div><!-- lo que yo puedo hacer -->
-        <hr>
+        </div>
 
-        <!-- Yo puedo ayudar -->
-        <div class="puedo-ayudar text-center">
-            <h1 class="titulo">Yo puedo ayudar.</h1>
-            <h2 class="subtitulo">Actualmente estoy disponible para trabajo independiente.</h2>
-            <p>Si tiene un proyecto que desea comenzar, cree que necesita mi ayuda con algo o simplemente desea decir
-                hola, luego póngase en contacto.</p>
-            <button type="button" class="btn btn-primary btn-lg mensajeame">MENSAJEAME</button>
-        </div><!-- Yo puedo ayudar -->
+    </div><!-- lo que yo puedo hacer -->
 
-    </div><!-- container -->
+    <!-- Yo puedo ayudar -->
+    <div class="puedo-ayudar text-center">
+        <h1 class="titulo">Yo puedo ayudar.</h1>
+        <h4 class="subtitulo">Actualmente estoy disponible para trabajo independiente.</h4>
+        <p>Si tiene un proyecto que desea comenzar, cree que necesita mi ayuda con algo o simplemente desea decir
+            hola, luego póngase en contacto.</p>
+        <button type="button" class="btn btn-primary btn-lg mensajeame">MENSAJEAME</button>
+    </div><!-- Yo puedo ayudar -->
 
     <footer class="footer mt-auto py-3 bg-light text-center">
         <div class="container-fluid">
