@@ -4,6 +4,7 @@
 
 body {
     font-family: 'IBM Plex Serif', serif;
+    background-color: e5e5e5;
 }
 
 h1,
@@ -11,17 +12,24 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+nav {
     font-family: 'IBM Plex Sans', sans-serif;
+}
+
+p {
+    color: #23374d;
 }
 
 .jumbotron h1 {
     font-family: 'Caveat', cursive;
-    font-size: 5rem;
+    font-size: 8rem;
 }
 
 .jumbotron h2 {
     font-size: 1.5rem;
+    text-transform: capitalize;
+    font-variant-caps: small-caps;
 }
 
 button {
@@ -30,6 +38,35 @@ button {
 
 .social-media a {
     margin: 20px;
+}
+
+/* color-palette */
+/*
+
+23374d azul oscuro
+1089ff azul claro
+e5e5e5 fondo1
+eeeeee fondo2
+
+*/
+
+.navbar.bg-custom {
+    background-color: #23374d;
+}
+
+.jumbotron.bg-custom {
+    background-color: #23374d;
+    background-image: url("https://www.transparenttextures.com/patterns/diagmonds.png");
+}
+
+.jumbotron h1,
+.jumbotron h2 {
+    color: #eeeeee;
+}
+
+.puedo-hacer.bg-custom {
+    background-color: #eeeeee;
+    background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
 }
 
 /* Espaciado jumbotron */
@@ -47,12 +84,16 @@ button {
 .saludo {
     padding-top: 5rem;
     padding-bottom: 5rem;
-    ;
     margin: 0 auto;
     max-width: 460px;
 }
 
 /* Espaciado lo que yo puedo hacer */
+
+.jumbotron {
+    margin-bottom: 0;
+    border-radius: 0;
+}
 
 .puedo-hacer {
     padding-top: 5rem;
@@ -87,6 +128,11 @@ button {
     display: block;
 }
 
+.subtitulo,
+.titulo {
+    color: #1089ff;
+}
+
 .saludo .img-circulo {
     margin-bottom: 2rem;
 }
@@ -101,7 +147,8 @@ button {
     padding-bottom: 1rem;
 }
 
-.puedo-ayudar h1 {
+.puedo-ayudar h1,
+.puedo-hacer h1 {
     margin-bottom: 1.5rem;
     padding-bottom: 1.5rem;
 }
@@ -111,6 +158,11 @@ button {
 }
 
 @media (max-width: 1028px) {
+
+    .jumbotron h1 {
+        font-family: 'Caveat', cursive;
+        font-size: 4rem;
+    }
 
     .img-circulo {
         margin: 0 auto;
