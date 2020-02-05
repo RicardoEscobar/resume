@@ -122,10 +122,24 @@ eeeeee fondo2
 
 /* estilos personalizados */
 
-.img-circulo {
+.img-reactjs {
     margin-bottom: 2rem;
     border-radius: 100%;
     display: block;
+    max-width: 150px;
+}
+
+.img-nodejs {
+    display: block;
+    max-width: 150px;
+}
+
+.img-avatar {
+    margin-bottom: 2rem;
+    border-radius: 100%;
+    border: 5px solid #1089ff;
+    display: block;
+    max-width: 200px;
 }
 
 .subtitulo,
@@ -164,7 +178,9 @@ eeeeee fondo2
         font-size: 4rem;
     }
 
-    .img-circulo {
+    .img-avatar,
+    .img-nodejs,
+    .img-reactjs {
         margin: 0 auto;
     }
 
